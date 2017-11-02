@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<script src="javascripts/app.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <meta charset="utf-8">
+  <title>Fortune Teller</title>
+</head>
+<body>
+
+  <div id='app' ng-app='app' ng-controller='mainCtrl'>
+    <div id='title'>
+      <h1>Fortune Teller </h1>
+    </div>
+    <div class='fortune stretch fortune-text'>
+      {{fortune.fortune}}
+    </div>
+
+  </div>
+
+</body>
+</html>
