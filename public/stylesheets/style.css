@@ -1,10 +1,20 @@
 
-html, body, #app {
+html, body {
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: helvetica;
+  background: url("../images/background.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#contentWrapper {
+  text-align: center;
 }
 
 div, ul {
@@ -12,9 +22,12 @@ div, ul {
   padding: 0;
 }
 
-h1 {
-  text-align: center;
+#title {
+  font-size: 24px;
+  text-decoration: underline;
   font-family: "Tahoma", Geneva, sans-serif;
+  color: #DCC414;
+  text-shadow: 1px 1px 2px;
 }
 
 .stretch {
@@ -23,13 +36,15 @@ h1 {
 }
 
 .fortune {
-  background-image: url("../images/FortuneCookie.jpg");
-  background-repeat: no-repeat;
-  background-size: 900px; 
-  padding: 20px;
+  display: inline-block;
+  position: relative;
 }
 
 .fortune-text {
+  position:absolute;
+  left: 260px;
+  top: 240px;
+  width: 300px;
   margin: 0;
   color: black;
 }

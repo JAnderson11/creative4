@@ -9,14 +9,20 @@
 </head>
 <body>
 
-  <div id='app' ng-app='app' ng-controller='mainCtrl'>
-    <div id='title'>
-      <h1>Fortune Teller </h1>
-    </div>
-    <div class='fortune stretch fortune-text'>
-      {{fortune.fortune}}
-    </div>
+  <div ng-app='app' ng-controller='mainCtrl'>
+    <div id="contentWrapper">
+      <div id='title'>
+        <h1>Fortune Teller </h1>
+      </div>
+      
+      <div class="fortune">
+        <img src="../images/FortuneCookie.png">
+        <div class='fortune-text'>
+          {{fortune.fortune}}
+        </div>
+      </div>
 
+    </div>
   </div>
 
 </body>
