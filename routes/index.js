@@ -45,6 +45,36 @@ var fortunes = [
     fortune: 'Step on a crack, break your mom\'s back.'
   },
   {
+    fortune: 'Your food isn\'t going to agree with you tomorrow.'
+  },
+  {
+    fortune: 'Computer Science will make you an excellent beggar.'
+  },
+  {
+    fortune: 'Wow, the fortune is bad enough, I probably shouldn\'t tell you it.'
+  },
+  {
+    fortune: 'You will be chosen for the Hunger Games!'
+  },
+  {
+    fortune: 'It\'s IT\'S... THE GRIM!'
+  },
+  {
+    fortune: 'If you do not take Madam Zeroni up the mountain, you and your family will be cursed for always and eternity.'
+  },
+  {
+    fortune: 'The force is... not very strong in you.'
+  },
+  {
+    fortune: 'You\'ll end up like Lindsey Lohan.'
+  },
+  {
+    fortune: 'Eat a banana, or a banana will eat you.'
+  },
+  {
+    fortune: 'It\'s dangerous to go alone, but alone is all you\'ll ever be.'
+  },
+  {
     fortune: 'Your resemblance to a muppet will prevent the world from taking you seriously.'
   }
 ];
