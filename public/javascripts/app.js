@@ -26,4 +26,11 @@ function mainCtrl ($scope, fortuneFetcher) {
     .then(function (data) {
       $scope.fortune = data
     })
+
+    $scope.refresh = function(){
+      fortuneFetcher.get()
+      .then(function (data) {
+        $scope.fortune = data
+      })
+    }
 }
