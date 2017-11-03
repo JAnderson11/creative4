@@ -30,7 +30,22 @@ var fortunes = [
     fortune: 'Your identity was just stolen.'
   },
   {
-    fortune: 'Adding a little excersize to your routine will do wonders.'
+    fortune: 'Vampires will soon suck your blood.'
+  },
+  {
+    fortune: 'You will be abducted by aliens in one week.'
+  },
+  {
+    fortune: 'The fortune you seek is in another cookie.'
+  },
+  {
+    fortune: 'It would be best to maintain a low profile for now.'
+  },
+  {
+    fortune: 'Step on a crack, break your mom\'s back.'
+  },
+  {
+    fortune: 'Your resemblance to a muppet will prevent the world from taking you seriously.'
   }
 ];
 
